@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Img DYNAMIC</title>
+</head>
+<body>
+    <p id="p1" style="color: blue;">SILVER OAK UNIVERSITY</p>
+    <img id="i1" src="https://stickerly.pstatic.net/sticker_pack/g7l03bHrkGDZMKJreHIwA/P9N2AA/4/b63a5ba4-b3c6-46dc-8e35-261dbfe4597d.png" alt="">
+</body>
+<script>
+    
+    var p1 = document.getElementById("p1");
+    var i=15;
+    var a = setInterval(()=>{
+        p1.style.fontSize= i+"px";
+        i=i+5;
+        if(i==50)
+        {
+            clearInterval (a);
+        }
+    },1000)
+
+    
+    var i1 = document.getElementById("i1");
+    var p=15;
+    var b = setInterval(()=>{
+        i1.style.width= p+"px";
+        p=p+5;
+        if(p==500)
+        {
+            clearInterval (b);
+        }
+    },100)
+</script>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Quary</title>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css" />
+    <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <style type="text/css">
+        #TabDiv {font-size: 14px;}
+        #TabDiv div,#TabDiv p{background: white;}
+        .ui-widget-header{
+            background-color: rgb(255, 127, 127);
+            border: 1px solid aquamarine;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#TabDiv").tabs();
+        });
+    </script>
+</head>
+<body>
+    <div id="TabDiv">
+        <ul>
+            <li><a href="#tab1">My Tab 1</a></li>
+            <li><a href="#tab2">My Tab 2</a></li>
+            <li><a href="#tab3">My Tab 3</a></li>
+        </ul>
+        <div id="tab1">
+            <p>
+                okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay  okay 
+            </p>
+        </div>
+        <div id="tab2">
+            <p>
+                huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  huh  
+            </p>
+        </div>
+        <div id="tab3">
+            <p>
+                lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol  lol
+            </p>
+        </div>
+    </div>
+</body>
+</html>
