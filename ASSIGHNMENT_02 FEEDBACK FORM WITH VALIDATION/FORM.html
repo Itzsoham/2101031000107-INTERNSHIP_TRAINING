@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<title>FEEDBACK FORM VALIDATION</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="css/style.css">
+	<SCRipt src="js/main.js"></SCRipt>
+	
+	<style type="text/css">
+		small {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+
+
+
+							<div class="col-md-7">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">FEEDBACK FORM</h3>
+									<div id="form-message-warning" class="mb-4"></div>
+
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" id="name" autofocus class="form-control"
+														placeholder="Name" maxlength="40" /><br />
+													<small id="TxtNameValidation"></small>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="text" id="email" class="form-control"
+														placeholder="Email" maxlength="50" /><br />
+													<small id="TxtEmailIdValidation"></small>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group" >
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject"
+														placeholder="Subject" />
+													<small id="TxtNameValidation1" style="margin-top: 200x;"></small>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label style="margin-top: 30px;" class="label" for="#">Message</label>
+													<textarea rows="4" cols="30" id="massage" class="form-control"
+														placeholder="Message"
+														maxlength="300"></textarea><br />
+													<small id="TxtContactMsgValidation"></small>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<button type="submit" value="" class="btn btn-primary"
+													id="BtnSubmit">  SUBMIT  </button>
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg)">
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+</body>
+
+</html>
