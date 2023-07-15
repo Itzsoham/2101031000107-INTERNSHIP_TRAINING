@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\feedbackForm\bin\Debug\feedbackForm.exe.config
+C:\Users\HP\source\repos\feedbackForm\bin\Debug\feedbackForm.exe
+C:\Users\HP\source\repos\feedbackForm\bin\Debug\feedbackForm.pdb
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.Form1.resources
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.Properties.Resources.resources
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.exe
+C:\Users\HP\source\repos\feedbackForm\obj\Debug\feedbackForm.pdb

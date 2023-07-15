@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\DatabaseCr\bin\Debug\DB1.mdf
+C:\Users\HP\source\repos\DatabaseCr\bin\Debug\DB1_log.ldf
+C:\Users\HP\source\repos\DatabaseCr\bin\Debug\DatabaseCr.exe.config
+C:\Users\HP\source\repos\DatabaseCr\bin\Debug\DatabaseCr.exe
+C:\Users\HP\source\repos\DatabaseCr\bin\Debug\DatabaseCr.pdb
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.Form1.resources
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.Properties.Resources.resources
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.exe
+C:\Users\HP\source\repos\DatabaseCr\obj\Debug\DatabaseCr.pdb
