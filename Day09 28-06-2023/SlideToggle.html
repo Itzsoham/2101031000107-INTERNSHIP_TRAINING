@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        #panel, #flip{
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(235, 253, 255);
+            border: solid 1px rgb(0, 0, 0);
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+    <title>Slide Toggle</title>
+</head>
+<body>
+    
+    <div id="flip">Click to slide Up-Down panel</div>
+    <div id="panel">Hello world!</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<html><head>
+    <title>Demo Background Video</title>
+    <style type="text/css">
+            .fullscreen_bg 
+            {
+                position:fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow:hidden;
+                z-index:-1;
+                background-size:cover;
+            }
+            .fullscreen_bg_video 
+            {
+                position:fixed;
+                width: auto;
+                height: auto;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            
+            *{font-size:22px;font-weight:bold;}
+    
+    #R1{background-color:gray;height:85px;width:100%;margin-bottom:25px;}
+        #R1 div{float:left;height:60px;padding-top:28px;text-align:center}
+        #R1C1{padding-left:2%;width:48%;}
+        #R1C2{padding-right:2%;width:48%;}
+       
+    #R2{height:1200px;width:100%;}
+       #R2R1,#R2R2,#R2R3,#R2R4{width:100%;height:180px;margin-bottom:25px;}
+       #R2R1 div,#R2R2 div,#R2R3 div ,#R2R4 div{height:280px;width:23.5%;float:left;margin-right:2%;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTviVjyYYdclq5HwAhil_LDc9iia8Ua2AvUHA&usqp=CAU);}
+       #R2R1 div:last-child,#R2R2 div:last-child,#R2R3 div:last-child,#R2R4 div:last-child{margin-right:0!important;margin-bottom: 25px;}
+    
+    #R3{height:200px;width:100%;margin-bottom:25px;}
+        #R3C1{width:33%;margin-right:2%;text-align:center;}
+        #R3C2{width:33%;margin-right:2%;text-align:center;}
+        #R3C3{width:30%;text-align:center;}
+        #R3 div{float:left;height:110px;padding-top:90px;background-image: url(https://media.istockphoto.com/id/1211520535/vector/delivery-box-background-cargo-package-seamless-pattern-various-open-and-closed-cardboard.jpg?s=612x612&w=0&k=20&c=34HubyN3AyDTF1JyDqlKNdHF4JGcHA9iv5JWiNx95F8=);}
+        
+    #R4{background-color:gray;height:40px;width:100%;padding-top:18px;text-align:center;margin-bottom:25px;margin-top: 50px;}
+    </style>
+    
+           
+  
+</head>
+<body>
+    
+    <div class="fullscreen_bg">
+        <video src="sample.mp4" autoplay="" loop="" muted="" class="fullscreen_bg_video"></video>
+    </div>
+        <div id="R1" style="background-image: url(https://img.freepik.com/premium-vector/website-header-banner-design-with-medical-hexagons-pattern-geometric-abstract-background-with-simple-hexagonal-elements-medical-technology-science-design_181182-15885.jpg);">
+            <div id="R1C1">
+               Logo
+            </div>
+            <div id="R1C2">
+               Navigation
+            </div>
+        </div>
+        <div id="R2">
+            
+      
+        <div id="R2R1">
+            <div id="R2R1C1"></div>
+            <div id="R2R1C2"></div>
+            <div id="R2R1C3"></div>
+            <div id="R2R1C4"></div>
+        </div>
+        <div id="R2R2">
+            <div id="R2R2C1"></div>
+            <div id="R2R2C2"></div>
+            <div id="R2R2C3"></div>
+            <div id="R2R2C4"></div>
+        </div>
+        <div id="R2R3">
+            <div id="R2R3C1"></div>
+            <div id="R2R3C2"></div>
+            <div id="R2R3C3"></div>
+            <div id="R2R3C4"></div>
+        </div>
+        <div id="R2R4">
+            <div id="R2R4C1"></div>
+            <div id="R2R4C2"></div>
+            <div id="R2R4C3"></div>
+            <div id="R2R4C4"></div>
+        </div>
+        </div>
+        <div id="R3">
+            <div id="R3C1">Box1</div>
+            <div id="R3C2">Box2</div>
+            <div id="R3C3">Box3</div>
+        </div>
+        <div id="R4" style="background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgKCAgKCAcHCAgICAoHCAgHBw8ICQcKFREWFhURExMYHyggGBolGxMTITEhJSk3Li4uFx8zODMsNygtLisBCgoKDQ0NDw0NDjcZFRkrLS0rLSsrKysrNzcrKysrKzcrKysrKysrKy0rKysrLSsrKysrKysrNysrKysrKysrK//AABEIAHIBuAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBv/EACQQAQEAAgEEAgEFAAAAAAAAAAABAhExEiFBUWFxkQOBobHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDwBYRW7FkWxBRQEZBRQDQCqgCWNIDI0gCKiKLITH3+GgTU4c7NXTqmU3PkHNSFBFxRuAAAAAuM7qsmoyIACgAC447+jHHf06KiZTtGXTJzoiAAECcgUXJAFAAAAACCpQAAZUAAUGRpAZBdCkiiCAAAAAAosx01jNLYDACAIoM5RmujFFTFoiiJRagouM3fpG5NQFYbYUAEBcZsk26RUIsRYIXhjJu8M6BgABZyi4gtRUAAAAAWAAlUoIACAAKgAqKCaFhYCIAAAAADeMJFFABGcojdm450XAgRBTp3+w1iowR0s2xZoEqNMIrWM7tpJqKqDDbAosmyTbciIRQVBYjQF4ZaZVGMp3+0bynZhFFxRcQVKpQQAAFAAAKAIACCoACgAARUUEsZsbAYFsQUak0SaaEAAFIAM5zz+WgHFYZTVRFaax4ZbnEUABGdMyd3STbXTPQtYG+mejpnyFYZk26dH2mtdvQUk0CiAALFSKqDLcZoI52aroznPKKyuPCNY8ApQBkW8gAAAAAAIoAgAAAAAKAAAAvSRqKMK1YiCAoAACoqjOeO58xyd3H9SavxU1c1W3OeHQAk2SbdJNCEmiqlUQFk2guMT9SeWyqjgq5TV+ERRUUFgCorN5aZvIIUEVyrc4iZzv8AbUAABKLUAAAAAAAoUBAAAACACgoIsNKA1GWlQABnQ0lgICopAFQTLHc/pVBww5+q6ybOi9W55nduTSKSaUFBKqZCI3jGcZ/DYJ5aZjQjNm45O1Yznn8i4yBEVSCqgmSpl4BkBFTKbhpqRoGNX0dNbFSs9LNmmwVzGrj6RBAAAAAAQAAABUUCKAKEFQaSKACgAAliNSNdPsHNZjfTevSgzMVkUANAImk00AjOTek6fPgWkmoKgLFTFREqNVAc7NDdm4wKKkUCJk0mXAMLEakQUEUABQABLNqAxZpHRm4+gZAQAAQAAABYAKAAoCLFBRQAFnIA0AIAAAAAAAANgo5gILj/AKoArIAplxQBzgAqplxQBhsAQAUAAAAAAABnJkEAAH//2Q==);">
+            Footer
+        </div>
+    </div>
+
+
+</body></html>
